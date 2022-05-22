@@ -8,6 +8,5 @@ echo "main a..."
 echo "main b..."
     java Main b > characterslong.tex && xelatex characterslong.tex > /dev/null &&
 echo "rm..."
-    rm *.class *.aux *.log *.tex &&
+    rm *.class *.aux *.log &&
 echo "完成了"
-

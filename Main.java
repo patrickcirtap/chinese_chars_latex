@@ -101,7 +101,6 @@ public class Main
 
         return all_chars;
     }
-    /* populate_list() */
 
 
     /**
@@ -341,14 +340,12 @@ public class Main
                     System.out.println("\\ \\\\");
                 }
             }
-            /* while( current char ) / for each char_bunch */
 
             System.out.println("\\end{tabular}");
             System.out.println("\\ \\\\");
             System.out.println("\\ \\\\");
             System.out.println();
         }
-        /* for( each letter ) */
 
         System.out.println("总数： {\\Large " + all_chars.size() + "}");
         System.out.println();
@@ -356,7 +353,7 @@ public class Main
         /* proceeding LaTeX code: */
         System.out.println("\\end{document}");
         System.out.println();
-    } /* print_list_without_defns() */
+    }
 
 
     /**
@@ -595,14 +592,12 @@ public class Main
                     System.out.println("\\ \\\\");
                 }
             }
-            /* while( current char ) / for each char_bunch */
 
             System.out.println("\\end{tabular}");
             System.out.println("\\end{adjustwidth}");
             System.out.println("\\ \\\\");
             System.out.println();
         }
-        /* for( each letter ) */
 
         System.out.println("总数： " + all_chars.size());
         System.out.println();
@@ -610,7 +605,7 @@ public class Main
         /* proceeding LaTeX code: */
         System.out.println("\\end{document}");
         System.out.println();
-    } /* print_list_no_defns() */
+    }
 
 
     public static void main(String[] args)
@@ -635,6 +630,6 @@ public class Main
             System.out.println("Argument error");
             System.exit(1);
         }
-    } /* main() */
+    }
 
-} /* class */
+}

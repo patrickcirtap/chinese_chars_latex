@@ -13,12 +13,12 @@ public class CharacterObject implements Comparable<CharacterObject>
     /* create new char obj */
     public CharacterObject(String chr, String eng, int stk_c, int stk_n, String pin, ArrayList<String> defns)
     {
-        chr_sym       = chr;
-        english       = eng;
-        stroke_count  = stk_c;
+        chr_sym = chr;
+        english = eng;
+        stroke_count = stk_c;
         stroke_number = stk_n;
-        pinyin        = pin;
-        definitions   = new ArrayList<String>(defns);
+        pinyin = pin;
+        definitions = new ArrayList<String>(defns);
     }
 
     /* comparison definition */

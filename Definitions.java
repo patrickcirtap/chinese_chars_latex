@@ -41,14 +41,19 @@ public class Definitions
                 {
                     switch(i)
                     {
+                        /* ignore character */
                         case 0:
                             break;
+                        /* ignore english */
                         case 1:
                             break;
+                        /* ignore stroke count */
                         case 2:
                             break;
+                        /* ignore stroke number */
                         case 3:
                             break;
+                        /* ignore pinyin */
                         case 4:
                             break;
                         default:
@@ -62,7 +67,6 @@ public class Definitions
 
         return all_defns;
     }
-    /* populate_definition_list() */
 
 
     /**
@@ -86,7 +90,7 @@ public class Definitions
             /* try{ TimeUnit.SECONDS.sleep(1); } catch(Exception e) {} */
             line = scanner.nextLine();
         }
-    } /* random_sentences() */
+    }
 
 
     public static void main(String[] args)
